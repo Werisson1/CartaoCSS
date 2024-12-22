@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Visita</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <style>
+        .box {
+            width: 800px;
+            height: 450px;
+            background-color: rgb(21, 21, 21);
+            color: lightgray;
+            border-radius: 20px;
+            text-align: center;
+            margin: 100px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            border-color: aliceblue;
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #25375F;
+            object-fit: cover;
+            margin-bottom: 20px;
+            
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            margin: 0 10px;
+            font-size: 24px;
+        }
+
+        a:hover {
+            color: rgba(169, 169, 194, 0.733);
+        }
+
+        .pessoa h2 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <img src="https://github.com/Werisson1/CartaoCSS/raw/main/img/IMG-20230201-WA0000~2.jpg" alt="Foto de Perfil" class="profile-img">
+
+        <div class="pessoa">
+            <h2>Francisco Wérisson C. de Paiva Filho</h2>
+            <p>Desenvolvedor</p>
+            <div class="tel">
+                <p>+55 (85) 99427-5134</p>
+                <div class="social">
+                    <nav>
+                        <a href="https://github.com/Werisson1" target="_blank" title="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                     </a>
+                        <a href="https://x.com/werisson_7" target="_blank" title="X">
+                        <i class="fa-brands fa-twitter"></i>
+                        </a>
+
+                        </nav>
+
+                    <p>E-mail: f.werisson@aluno.ifce.edu.br</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
